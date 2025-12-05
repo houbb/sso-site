@@ -1,0 +1,39 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="400" fill="#f0f7ff"/>
+  
+  <!-- 用户资料卡片 -->
+  <rect x="200" y="100" width="200" height="200" fill="#ffffff" stroke="#e4e7ed" stroke-width="2" rx="10"/>
+  
+  <!-- 头像 -->
+  <circle cx="300" cy="180" r="40" fill="#409eff"/>
+  <circle cx="300" cy="170" r="15" fill="#ffffff"/>
+  <path d="M280 200C280 190 290 185 300 185C310 185 320 190 320 200" fill="#ffffff"/>
+  
+  <!-- 用户信息 -->
+  <rect x="230" y="240" width="140" height="10" fill="#e4e7ed" rx="5"/>
+  <rect x="230" y="260" width="100" height="10" fill="#e4e7ed" rx="5"/>
+  <rect x="230" y="280" width="120" height="10" fill="#e4e7ed" rx="5"/>
+  
+  <!-- 编辑按钮 -->
+  <rect x="340" y="110" width="40" height="40" fill="#409eff" rx="20"/>
+  <path d="M355 125 L365 135 M365 125 L355 135" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- 设置图标 -->
+  <circle cx="150" cy="150" r="30" fill="#67c23a" opacity="0.8"/>
+  <path d="M150 135 L150 165 M135 150 L165 150" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- 安全图标 -->
+  <circle cx="450" cy="150" r="30" fill="#e6a23c" opacity="0.8"/>
+  <path d="M440 145 L450 135 L460 145 L460 160 C460 165 455 170 450 170 C445 170 440 165 440 160 Z" fill="#ffffff"/>
+  <circle cx="450" cy="155" r="5" fill="#e6a23c"/>
+  
+  <!-- 连接线 -->
+  <path d="M180 150 L200 150" stroke="#909399" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M400 150 L420 150" stroke="#909399" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 标签 -->
+  <text x="150" y="200" text-anchor="middle" fill="#606266" font-size="12">设置</text>
+  <text x="450" y="200" text-anchor="middle" fill="#606266" font-size="12">安全</text>
+  <text x="300" y="330" text-anchor="middle" fill="#303133" font-size="16" font-weight="bold">个人资料设置</text>
+</svg>
